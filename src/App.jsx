@@ -1,8 +1,11 @@
+import BasicInformation from "./BasicInformation";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <BasicInformation/>
+    </div>
+  );
+};
 
 export default App;
